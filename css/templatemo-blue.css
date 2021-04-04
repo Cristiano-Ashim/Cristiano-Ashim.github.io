@@ -356,8 +356,8 @@ footer {
 #hidden{
   z-index: 1000;
   display:none;
-  height:450px;
-  width:640px;
+  height:600px;
+  width:600px;
   position: absolute;
   bottom:400px;
   right:0;

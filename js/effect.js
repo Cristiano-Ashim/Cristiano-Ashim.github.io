@@ -23,8 +23,8 @@ let video = document.getElementById('video');
 // set canvas sizwe 
 video.addEventListener('loadedmetadata', function () {
 
-    canvas.width = video.videoWidth;
-    canvas.height = video.videoHeight;
+    canvas.width = document.getElementById("video").getAttribute("width");
+    canvas.height = document.getElementById("video").getAttribute("height");
     canvas.style.display = "block";
 });
 
